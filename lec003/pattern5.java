@@ -38,6 +38,7 @@ public class pattern5{
 
             if(r<=n/2){
                 nst+=2;
+               
                 nsp--;
             }    
              
@@ -55,4 +56,13 @@ public class pattern5{
     }
 }
 
-
+/*
+Output:
+    1
+   232
+  34543
+ 4567654
+  34543
+   232
+    1
+    */
