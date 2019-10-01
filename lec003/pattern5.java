@@ -1,10 +1,10 @@
 import java.util.Scanner;
 public class pattern5{
-    public static Scanner scn=new Scanner(System.in);
+    public static Scanner scn=new Scanner(System.in);//input taken
     public static void main(String[] args){
         int n;
-        n=scn.nextInt();
-        numpyr(n);
+        n=scn.nextInt();//next int after \n
+        numpyr(n); 
         
     }
     
@@ -32,7 +32,7 @@ public class pattern5{
                     val++;
                 }
                 else{
-                    val--;
+                    val--;//decrease
                 }
             }
 
