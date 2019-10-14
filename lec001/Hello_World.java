@@ -1,5 +1,7 @@
 public class Hello_World{
     public static void main(String[] args){
-        System.out.println("Hello World!");
+        String gg = "hello world"; 
+        //understanding the syntax of string
+        System.out.println(gg);
     }
 }
